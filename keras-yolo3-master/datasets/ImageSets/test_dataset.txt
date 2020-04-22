@@ -1,0 +1,3 @@
+personai_icartoonface_dettrain_00010.jpg	205	149	258	223
+personai_icartoonface_dettrain_00027.jpg	184	301	313	426
+personai_icartoonface_dettrain_00001.jpg	246	141	401	296

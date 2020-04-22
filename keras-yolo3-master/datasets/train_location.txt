@@ -1,0 +1,20 @@
+/Users/apple1/Desktop/2020iqiyi/yolo/keras-yolo3-master/datasets/JPEGImages/personai_icartoonface_dettrain_00001.jpg 246,141,401,296,0
+/Users/apple1/Desktop/2020iqiyi/yolo/keras-yolo3-master/datasets/JPEGImages/personai_icartoonface_dettrain_00002.jpg 85,6,114,46,0
+/Users/apple1/Desktop/2020iqiyi/yolo/keras-yolo3-master/datasets/JPEGImages/personai_icartoonface_dettrain_00003.jpg 352,146,404,201,0 450,181,477,212,0
+/Users/apple1/Desktop/2020iqiyi/yolo/keras-yolo3-master/datasets/JPEGImages/personai_icartoonface_dettrain_00004.jpg 415,229,456,278,0
+/Users/apple1/Desktop/2020iqiyi/yolo/keras-yolo3-master/datasets/JPEGImages/personai_icartoonface_dettrain_00005.jpg 323,219,391,311,0 254,348,365,455,0
+/Users/apple1/Desktop/2020iqiyi/yolo/keras-yolo3-master/datasets/JPEGImages/personai_icartoonface_dettrain_00008.jpg 397,210,538,417,0
+/Users/apple1/Desktop/2020iqiyi/yolo/keras-yolo3-master/datasets/JPEGImages/personai_icartoonface_dettrain_00010.jpg 205,149,258,223,0 536,286,565,334,0 379,389,408,423,0 336,407,360,426,0
+/Users/apple1/Desktop/2020iqiyi/yolo/keras-yolo3-master/datasets/JPEGImages/personai_icartoonface_dettrain_00012.jpg 366,155,515,367,0
+/Users/apple1/Desktop/2020iqiyi/yolo/keras-yolo3-master/datasets/JPEGImages/personai_icartoonface_dettrain_00017.jpg 160,63,469,487,0
+/Users/apple1/Desktop/2020iqiyi/yolo/keras-yolo3-master/datasets/JPEGImages/personai_icartoonface_dettrain_00018.jpg 108,152,193,235,0
+/Users/apple1/Desktop/2020iqiyi/yolo/keras-yolo3-master/datasets/JPEGImages/personai_icartoonface_dettrain_00020.jpg 102,330,315,446,0
+/Users/apple1/Desktop/2020iqiyi/yolo/keras-yolo3-master/datasets/JPEGImages/personai_icartoonface_dettrain_00027.jpg 184,301,313,426,0
+/Users/apple1/Desktop/2020iqiyi/yolo/keras-yolo3-master/datasets/JPEGImages/personai_icartoonface_dettrain_00030.jpg 415,209,463,241,0
+/Users/apple1/Desktop/2020iqiyi/yolo/keras-yolo3-master/datasets/JPEGImages/personai_icartoonface_dettrain_00031.jpg 200,116,283,206,0
+/Users/apple1/Desktop/2020iqiyi/yolo/keras-yolo3-master/datasets/JPEGImages/personai_icartoonface_dettrain_00036.jpg 317,115,705,476,0
+/Users/apple1/Desktop/2020iqiyi/yolo/keras-yolo3-master/datasets/JPEGImages/personai_icartoonface_dettrain_00038.jpg 60,213,361,472,0
+/Users/apple1/Desktop/2020iqiyi/yolo/keras-yolo3-master/datasets/JPEGImages/personai_icartoonface_dettrain_00039.jpg 143,109,355,293,0
+/Users/apple1/Desktop/2020iqiyi/yolo/keras-yolo3-master/datasets/JPEGImages/personai_icartoonface_dettrain_00045.jpg 65,269,93,296,0
+/Users/apple1/Desktop/2020iqiyi/yolo/keras-yolo3-master/datasets/JPEGImages/personai_icartoonface_dettrain_00046.jpg 253,49,549,368,0
+/Users/apple1/Desktop/2020iqiyi/yolo/keras-yolo3-master/datasets/JPEGImages/personai_icartoonface_dettrain_00050.jpg 389,190,455,242,0
