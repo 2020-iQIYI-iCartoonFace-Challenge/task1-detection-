@@ -20,11 +20,11 @@ from keras.utils import multi_gpu_model
 
 class YOLO(object):
     _defaults = {
-        "model_path": 'logs/000/trained_weights_stage_1.h5',
+        "model_path": 'logs/000/trained_weights.h5',
         "anchors_path": 'model_data/yolo_anchors.txt',
         "classes_path": 'model_data/classes.txt',
-        "score" : 0.3,
-        "iou" : 0.45,
+         "score" : 0.2, #置信度的阈值，删除小于阈值的候选框；
+        "iou" : 0.2, #候选框的IoU阈值，删除同类别中大于阈值的候选框；
         "model_image_size" : (416, 416),
         "gpu_num" : 1,
     }
@@ -41,8 +41,11 @@ class YOLO(object):
         self.__dict__.update(kwargs) # and update with user overrides
         self.class_names = self._get_class()
         self.anchors = self._get_anchors()
-        self.sess = tf.compat.v1.keras.backend.get_session()
+        self.sess = K.get_session()
         self.boxes, self.scores, self.classes = self.generate()
+
+    def __iter__(self):
+        return self
 
     def _get_class(self):
         classes_path = os.path.expanduser(self.classes_path)
@@ -65,6 +68,9 @@ class YOLO(object):
         # Load model, or construct model and load weights.
         num_anchors = len(self.anchors)
         num_classes = len(self.class_names)
+        #
+
+        #print(num_classes)
         is_tiny_version = num_anchors==6 # default setting
         try:
             self.yolo_model = load_model(model_path, compile=False)
@@ -123,6 +129,7 @@ class YOLO(object):
                 self.input_image_shape: [image.size[1], image.size[0]],
                 K.learning_phase(): 0
             })
+
 
         print('Found {} boxes for {}'.format(len(out_boxes), 'img'))
 
@@ -212,13 +219,12 @@ def detect_video(yolo, video_path, output_path=""):
 
 if __name__ == '__main__':
     yolo = YOLO()
-    path = '/Users/apple1/Desktop/2020iqiyi/dataset/personai_icartoonface_detval/personai_icartoonface_detval_00000.jpg'
+    path = '/Users/apple1/Desktop/编程/2020iqiyi/dataset/personai_icartoonface_detrain/trainbild/personai_icartoonface_dettrain_00045.jpg'
     try:    image = Image.open(path)
     except: print('Open Error! Try again!')
     else:
-        r_image, _ = yolo.detect_image(image)
+        r_image = yolo.detect_image(image)
         r_image.show()
-
     yolo.close_session()
 
 
